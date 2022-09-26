@@ -27,7 +27,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Acá va tu código */
 
 #ejercicioTres{
-    /* position: relative; */
+    /* position: relative; Guarda el espacio de la imagen anterior */
     position: absolute;
     top: 100px;
     left: 200px;
@@ -63,5 +63,15 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
     width: 700px;
     height: 700px;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+#elementoTres{
+    align-self: flex-end;
+}
+
+#elementoDos{
+    align-self: flex-start;
 }
